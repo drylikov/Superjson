@@ -1,0 +1,21 @@
+{
+  "include": ["src"],
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["esnext"],
+    "importHelpers": false,
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "downlevelIteration": true
+  }
+}
